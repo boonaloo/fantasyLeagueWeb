@@ -3,7 +3,7 @@ import { Component, OnInit } from "@angular/core";
 @Component({
   selector: 'navbar',
   templateUrl: './nav-container.html',
-  styleUrls: ['../styling/app.component.scss']
+  styleUrls: ['../app.component.scss']
 })
 export class NavbarComponent implements OnInit {
   title = 'navbar';

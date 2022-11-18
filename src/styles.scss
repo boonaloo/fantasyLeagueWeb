@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+.body {
+  font-family: 'Cabin';
+  font-style: 'normal';
+  font-variant: 'normal';
+  margin: 64px auto;
+  padding: 0 48px;
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.table-top, .table-top-right {
+  font-style: bold !important;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  font-size: x-large;
+  &-right {
+    padding-right: 20px;
+    text-align: right;
+    float: right;
+  }
+}
+
+.navbar-brand {
+  color: aquamarine !important;
+}
+
+tr, tfoot {
+  line-height: 32px;
+  min-height: 32px;
+  height: 32px;
+}
+
+td {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  .center {
+    text-align: center;
+    vertical-align: middle;
+  }
+}
